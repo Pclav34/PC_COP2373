@@ -77,6 +77,6 @@ def main():
             print(f"UNEXPECTED ERROR processing {product['name']}: {e}")
             print()
 
-
+# Program entry point
 if __name__ == "__main__":
     main()
