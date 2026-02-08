@@ -43,7 +43,7 @@ def main():
         None
 
     Variables:
-        TOTAL_TICKETS (int): Constant representing the total tickets available.
+        T_TICKETS (int): Constant representing the total tickets available.
         tickets_remaining (int): Accumulator tracking remaining tickets.
         total_buyers (int): Accumulator tracking the total number of buyers.
         tickets_sold (int): Number of tickets sold in current transaction.
@@ -61,13 +61,13 @@ def main():
         None
     """
     # Initialize constants and accumulators
-    TOTAL_TICKETS = 10
-    tickets_remaining = TOTAL_TICKETS
+    T_TICKETS = 10
+    tickets_remaining = T_TICKETS
     total_buyers = 0
 
     # Display welcome message
     print("Welcome to the Cinema Ticket Pre-Sale!")
-    print(f"We have {TOTAL_TICKETS} tickets available.")
+    print(f"We have {T_TICKETS} tickets available.")
     print("Each buyer can purchase up to 4 tickets.\n")
 
     # Loop until all tickets are sold
