@@ -61,7 +61,7 @@ def main():
         None
     """
     # Initialize constants and accumulators
-    TOTAL_TICKETS = 20
+    TOTAL_TICKETS = 10
     tickets_remaining = TOTAL_TICKETS
     total_buyers = 0
 
