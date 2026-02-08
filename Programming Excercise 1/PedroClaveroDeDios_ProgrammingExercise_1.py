@@ -19,7 +19,7 @@ def sell_tickets(tickets_remaining):
         int: The number of tickets successfully purchased (0 if invalid).
     """
     # Prompt user for number of tickets
-    tickets_requested = int(input("How many tickets would you like to purchase? "))
+    tickets_requested = int(input("How many tickets would you like to buy? "))
 
     # Check if request is within allowed range (1-4 tickets)
     if tickets_requested < 1 or tickets_requested > 4:
